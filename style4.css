@@ -1,0 +1,53 @@
+
+  
+h1{
+    
+    /*border-style: dashed;*/
+    /*border-style: dotted;*/
+    /*border-style: double;*/
+    /*border-style: groove;*/
+    /*border-style: ridge;*/
+    /*border-style: inset;*/
+    /*border-style: outset;*/
+    /*border-style: none;*/
+
+    
+    .centered-heading {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    /*
+    border-style: solid;
+    border-width: 5px;
+    border-color: hsl(160, 84%, 25%);
+    border-radius: 20px;
+    text-align: center;
+    */
+
+    
+    .bordered-text {
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 4px 30px;
+    }
+
+    
+    .bordered-text:hover {
+        box-shadow: 0 0 10px #00f, 0 0 20px #00f;
+        border-color: #00f;
+    }
+        
+
+}
+
+#p1{
+    border-bottom: 5px dotted rgb(153, 12, 12);
+    border-right: 5px groove rgb(9, 9, 196);
+    border-left: 5px ridge rgb(12, 192, 12);
+    border-top: 5px inset rgb(156, 41, 60);
+
+    border-radius: 20px;
+}
+

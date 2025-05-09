@@ -1,0 +1,42 @@
+
+body {
+    margin: 0px;
+}
+
+
+.box {
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+    /*margin: auto;*/
+
+}
+
+#box1 {
+    background-color: rgb(232, 44, 44);
+    /*
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    */
+}
+#box2 {
+    background-color: rgb(25, 182, 161);
+    /*
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    */
+}

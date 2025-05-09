@@ -1,0 +1,23 @@
+@font-face {
+    src: url(Fonts/Roboto-Italic-VariableFont_wdth-wght.ttf);
+    font-family: Roboto;
+}
+@font-face {
+    src: url(Fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf);
+    font-family: OpenSans;
+}
+h1{
+    font-family: Roboto, Georgia, Tahoma;
+}
+h2{
+    font-family: OpenSans, Tahoma;
+}
+#p1{
+    font-family: OpenSans;/*"Geneva", Verdana;*/
+    /*font-size: 1em*/
+    font-size:50px;
+    /*font-weight: normal;*/
+    font-weight: bold;
+    /*font-style: normal;*/
+    font-style: italic;
+}
