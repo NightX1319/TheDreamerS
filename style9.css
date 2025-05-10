@@ -1,0 +1,20 @@
+div {
+    background-color: hsl(0, 73%, 50%);
+    width: 100px;
+    height: 100px;
+    display: block;
+    /*display: inline;*/
+    /*display: inline-block;*/
+    /*display: none;*/
+    /*visibility: hidden;*/
+}
+span {
+    background-color: hsl(240, 75%, 47%);
+    width: 100px;
+    height: 100px;
+    display: block;
+    /*display: inline;*/
+    /*display: inline-block;*/
+    /*display: none;*/
+    /*visibility: hidden;*/
+}
