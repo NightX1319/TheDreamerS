@@ -1,0 +1,124 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+#box {
+    width: 250px;
+    height: 250px;
+    background-color: hsl(120, 71%, 23%);
+    font-size: 13em;
+    text-align: center;
+    /*animation-name: rotate;*/
+    /*animation-name: shrink;*/
+    /*animation-name: fade;*/
+    /*animation-name: fadeIn;
+    opacity: 0;*/
+    /*animation-name: grow;*/
+    animation-name: slideleft;
+    /*animation-name: slideRight;
+    animation-name: slideUp;
+    animation-name: slideDown;*/
+    /*animation-name: glowEffect;*/
+    /*animation-name: changeColor;*/
+    animation-duration: 2s;
+    
+    /*animation-iteration-count: 1;*/
+    animation-iteration-count: infinite;
+
+    animation-direction: normal;
+    /*animation-direction: alternate;
+    animation-direction: reverse;
+    animation-direction: alternate-reverse;
+
+    animation-play-state: paused;*/
+    animation-play-state: running;
+
+    /*animation-timing-function: ease-in-out;*/
+    animation-timing-function: cubic-bezier(1,-0.3, 0, 1.94);
+    /*animation-timing-function: linear;
+    animation-timing-function: steps(5);*/
+}
+/*#box:hover {
+    animation-name: glowEffect;
+    animation-duration: 2s;
+}*/
+/*#box:active {
+    animation-name: glowEffect;
+    animation-duration: 2s;
+}*/
+img {
+    max-width: 100%;
+    height: auto;
+    display: center;
+    animation-name: glowEffect;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-direction: normal;
+    animation-timing-function: cubic-bezier(1,-0.3, 0, 1.94);
+}
+@keyframes slideleft {
+    /*to   
+    from    
+    100%*/
+    /*from{transform: translateX(100px)}*/
+    from{transform: translateX(500%)}
+}
+@keyframes slideRight {
+    /*to   
+    from    
+    100%*/
+    /*from{transform: translateX(100px)}*/
+    to{transform: translateX(100%)}
+}
+@keyframes slideUp {
+    /*to   
+    from    
+    100%*/
+    /*from{transform: translateX(100px)}*/
+    from{transform: translateY(100%)}
+}
+@keyframes slideDown {
+    /*to   
+    from    
+    100%*/
+    /*from{transform: translateX(100px)}*/
+    To{transform: translateY(100%)}
+}
+@keyframes rotate {
+    /*to   
+    from    
+    100%*/
+    /*from{transform: translateX(100px)}*/
+    /*100%{transform: rotateY(360deg)}*/
+    /*100%{transform: rotateX(360deg)}*/
+
+    /*100%{transform: rotateZ(360deg)}*/
+    50%{transform: rotateZ(360deg)}
+}
+@keyframes grow {
+    100%{transform: scale(2, 2)}
+}
+@keyframes shrink {
+    50%{transform: scale(0.5, 0.5)}
+}
+@keyframes fade {
+    50%{opacity: 0}
+}
+@keyframes fadeIn {
+    100%{opacity: 1}
+}
+@keyframes changeColor {
+    0%{background-color: hsl(120, 71%, 23%)}
+    20%{background-color: hsl(185, 75%, 32%)}
+    40%{background-color: hsl(202, 82%, 22%)}
+    60%{background-color: hsl(326, 90%, 33%)}
+    80%{background-color: hsl(282, 83%, 21%)}
+    100%{background-color: hsl(35, 88%, 26%)}
+}
+@keyframes glowEffect {
+    50%{box-shadow: 0px 0px 150px hsl(0, 80%, 48%)}
+}
+

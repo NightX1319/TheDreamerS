@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    border: 3px solid hsl(0, 0%, 0%);
+    height: 90vh;
+    /*flex-direction: row;*/
+    /*flex-direction: row-reverse;*/
+    /*flex-direction: column;*/
+    /*flex-direction: column-reverse;*/
+
+    /*justify-content: flex-start;*/
+    /*justify-content: flex-end;*/
+    /*justify-content: center;*/
+    /*justify-content: space-between;*/
+    /*justify-content: space-around;*/
+    /*justify-content: space-evenly;*/
+
+    /*align-items: flex-start;*/
+    /*align-items: flex-end;*/
+    /*align-items: center;*/
+    /*align-items: baseline;*/
+
+    /*flex-wrap: wrap;*/
+    /*flex-wrap: nowarp;*/
+    /*flex-wrap: wrap-reverse;*/
+
+    /*align-content: flex-start;*/
+    /*align-content: flex-end;*/
+    /*align-content: center;*/
+    /*align-content: space-evenly;*/
+    /*align-content: space-between;*/
+
+    /*column-gap: 2em;*/
+    /*row-gap: 1em;*/
+}
+.box {
+    width: 200px;
+    height: 200px;
+    font-size: 6em;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1 {
+    background-color: hsl(120, 71%, 47%);
+    /*align-self: start;*/
+    align-self: center;
+    /*align-self: end;*/
+    /*order: 1;*/
+    /*order: -1;*/
+}
+#box2 {
+    background-color: hsl(270, 82%, 41%);
+    /*align-self: start;*/
+    align-self: center;
+    /*align-self: end;*/
+    /*order: 1;*/
+    /*order: -1;*/
+}
+#box3 {
+    background-color: hsl(342, 80%, 35%);
+    /*align-self: start;*/
+    align-self: center;
+    /*align-self: end;*/
+    /*order: 1;*/
+    /*order: -1;*/
+}
+#box4 {
+    background-color: hsl(62, 82%, 41%);
+    /*align-self: start;*/
+    align-self: center;
+    /*align-self: end;*/
+    /*order: 1;*/
+    /*order: -1;*/
+}
