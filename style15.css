@@ -1,0 +1,27 @@
+h1::first-letter {
+    font-size: 2em;
+    font-style: oblique;
+}
+p::first-line {
+    background-color: yellowgreen;
+}
+p::selection {
+    color: rgb(27, 121, 27);
+    background-color: rgb(189, 182, 182);
+}
+#fruits li::before {
+    content: "✅";
+}
+#apple::after {
+    content: "🍎";
+}
+#mango::after {
+    content: "🥭";
+}
+#banana::after {
+    content: "🍌";
+}
+#fruits li::marker {
+    color: hsl(156, 67%, 25%);
+    font-size: 1.9em;
+}

@@ -1,0 +1,44 @@
+   
+   /*
+   a:link {
+        color: hsl(160, 80%, 29%);
+    }
+    a:visited {
+        color: grey;
+    }
+    a:hover {
+        color: hsl(128, 86%, 30%);
+        font-size: 2.3em;
+    }
+    a:active {
+        color: hsl(234, 67%, 49%);
+        font-size: 2.3em;
+    }
+    */
+
+    /*
+    li:hover {
+        background-color: rgb(64, 181, 64)
+    }
+    li:not(:hover) {
+        background-color: hsl(0, 10%, 79%);
+    }
+    */
+
+    
+    /*li:nth-child(3n+1){*/
+        /*1, 2, 3, 4, .... 3n, even, odd*/
+        /*background-color: hsl(0, 85%, 40%);
+    }*/
+
+    #greetings p{
+        background-color: hsl(84, 54%, 51%);
+        padding: 10px;
+        display: none;
+    }
+    #greetings:hover p{
+        display: block;
+        
+    }
+    
+    
